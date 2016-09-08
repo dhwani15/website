@@ -44,7 +44,6 @@ var AppModule = (function () {
                 home_component_1.HomeComponent,
                 education_component_1.EduComponent,
                 skills_component_1.SkillsComponent,
-                projects_component_1.ProjectComponent,
                 experience_component_1.ExpComponent,
                 contact_component_1.ContactComponent
             ]

@@ -11,7 +11,7 @@
                                 <dd>
                                     <ul>
                                         <div *ngFor="let description of project.details" >
-                                            <li>{{ description }}</li>
+                                           <p><li>{{ description }}</li></p>
                                         </div>  
                                         <div *ngIf="project.link" >
                                             <a target="_blank" href="{{ project.link }}">Link: <u>{{ project.link }}</u></a>
